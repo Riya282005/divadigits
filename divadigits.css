@@ -1,0 +1,151 @@
+
+/* 🌸 Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 🌸 Body Styling */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #fff0f6; /* baby pink background */
+  color: #4a2c3a;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* 🌸 Headings */
+h1 {
+  color: #c94a7c;
+  text-align: center;
+  margin: 20px 0;
+}
+
+b, i , u {
+  text-align: center;
+}
+
+
+h2 {
+  color: #b83b6f;
+  margin: 25px 0 10px;
+  text-align: center;
+}
+
+
+p{
+  text-align: center;
+}
+b, u {
+  color: #a83264;
+}
+
+/* 🌸 Paragraphs */
+p {
+  margin: 10px 0 20px;
+}
+
+
+img {
+  border-radius: 12px;
+  margin: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+fieldset {
+  border: 2px solid #f4a7c1;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 30px 0;
+  background-color: #ffe6ef;
+}
+
+legend {
+  padding: 0 10px;
+  font-weight: bold;
+  color: #a83264;
+}
+
+
+label {
+  font-weight: 500;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px 10px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1px solid #f0a3bd;
+  outline: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #c94a7c;
+  box-shadow: 0 0 5px rgba(201, 74, 124, 0.4);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 6px;
+}
+
+button {
+  background-color: #c94a7c;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #a83264;
+}
+
+/* 🌸 Iframes (Videos & Map) */
+iframe {
+  border-radius: 15px;
+  margin: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+
+ol {
+  margin-left: 25px;
+}
+
+li {
+  margin: 6px 0;
+}
+
+/* 🌸 Footer Text */
+footer,
+p:last-of-type {
+  background-color: #ffe6ef;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+/* 🌸 Small Screen Responsive */
+@media (max-width: 768px) {
+  img,
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  body {
+    padding: 12px;
+  }
+}
